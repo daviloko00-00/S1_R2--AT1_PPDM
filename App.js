@@ -6,9 +6,9 @@ export default function App() {
     <View style={styles.container}>
       
       <View style={styles.boxContainer}>
-        <View style={[styles.box, styles.box1]} />
-        <View style={[styles.box, styles.box2]} />
-        <View style={[styles.box, styles.box3]} />
+        <View style={[styles.caixa, styles.cor1]} />
+        <View style={[styles.caixa, styles.cor2]} />
+        <View style={[styles.caixa, styles.cor3]} />
       </View>
 
       <StatusBar style="auto" />
@@ -28,20 +28,21 @@ const styles = StyleSheet.create({
     justifyContent: "space-between"
   },
 
-  box: {
+  caixa: {
     width: 80,
     height: 80,
+    margin: 20
   },
 
-  box1: {
+  cor1: {
     backgroundColor: "red",
   },
 
-  box2: {
+  cor2: {
     backgroundColor: "blue",
   },
 
-  box3: {
+  cor3: {
     backgroundColor: "green",
   }
 });
