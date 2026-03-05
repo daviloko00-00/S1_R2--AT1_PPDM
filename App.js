@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       
-      <View style={styles.boxContainer}>
+      <View style={styles.viewDasCaixinhas}>
         <View style={[styles.caixa, styles.cor1]} />
         <View style={[styles.caixa, styles.cor2]} />
         <View style={[styles.caixa, styles.cor3]} />
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20
   },
 
-  boxContainer: {
+  viewDasCaixinhas: {
     flexDirection: "row",
     justifyContent: "space-between"
   },
